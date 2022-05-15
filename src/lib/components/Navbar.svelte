@@ -13,7 +13,7 @@
 	<dir class="container mx-auto flex items-center justify-between m-0">
 		<div class="flex-grow-1">
 			<img
-				src="https://ecoairventilation.com/wp-content/uploads/2021/09/logo-animated-ecoair-0.png"
+				src="//cdn.shopify.com/s/files/1/0025/0245/9450/files/logo_3_large.png?v=1587770302"
 				alt="logo"
 				class="w-28"
 			/>
