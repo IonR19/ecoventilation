@@ -15,7 +15,7 @@
 			<label class="my-2 block text-xl font-thin" for="email">Email:</label>
 			<input
 				class="block w-full rounded-md py-2 px-3 text-xl text-slate-900"
-				type="text"
+				type="email"
 				id="email"
 			/>
 		</div>
@@ -32,10 +32,12 @@
 		<div class="mt-8">
 			<label class="my-2 block text-xl font-thin" for="phone">Phone:</label>
 			<div class="flex items-center">
-				<div disabled class="rounded-l bg-gray-200 py-2 px-3 text-xl text-slate-900">++965</div>
+				<div disabled class="rounded-l bg-gray-200 py-2 px-3 text-xl text-slate-900 ">
+					<span class="tracking-tighter">++</span>965
+				</div>
 				<input
 					class="block w-full rounded-r py-2 px-3 text-xl text-slate-900"
-					type="number"
+					type="tel"
 					id="phone"
 				/>
 			</div>
