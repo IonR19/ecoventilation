@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@types/tailwindcss": "^3.0.10",
 		"prettier-plugin-tailwindcss": "^0.1.10"
 	}
 }
