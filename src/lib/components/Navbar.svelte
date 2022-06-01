@@ -10,22 +10,24 @@
 </script>
 
 <nav class="shadow-lg">
-	<dir class="container mx-auto flex items-center justify-between m-0">
-		<div class="flex-grow-1">
-			<img
-				src="//cdn.shopify.com/s/files/1/0025/0245/9450/files/logo_3_large.png?v=1587770302"
-				alt="logo"
-				class="w-28"
-			/>
-		</div>
+	<div class="mx-auto flex items-center justify-between px-10">
 		<div>
-			<ul class="flex items-center">
-				{#each urls as url}
-					<li class="mx-2 px-2 uppercase transition-all hover:text-lg hover:text-yellow-600">
-						<a href={url.url}>{url.name}</a>
-					</li>
-				{/each}
-			</ul>
+			<a class="cursor-pointer" href="/">
+				<img
+					src="//cdn.shopify.com/s/files/1/0025/0245/9450/files/logo_3_large.png?v=1587770302"
+					alt="logo"
+					class="w-32"
+				/>
+			</a>
 		</div>
-	</dir>
+		<ul class="flex h-20">
+			{#each urls as url}
+				<li
+					class="flex items-center px-4 font-medium uppercase shadow-inner shadow-gray-300 transition-all hover:text-lg hover:text-yellow-600"
+				>
+					<a class=" text-xl" href={url.url}>{url.name}</a>
+				</li>
+			{/each}
+		</ul>
+	</div>
 </nav>
